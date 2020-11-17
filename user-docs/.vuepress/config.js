@@ -2,7 +2,7 @@ module.exports = {
   title: null,
   port: 8082,
   description: 'The headless CMS developers love.',
-  base: '/user-docs/',
+  base: '/documentation/user-docs/',
   plugins: [
     '@vuepress/medium-zoom',
     'vuepress-plugin-element-tabs',
