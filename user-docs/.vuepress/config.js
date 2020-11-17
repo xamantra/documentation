@@ -1,18 +1,19 @@
 module.exports = {
-  title: null,
+  title: "Strapi User Documentation",
   port: 8082,
   description: 'The headless CMS developers love.',
   base: '/documentation/user-docs/',
-  plugins: [
-    '@vuepress/medium-zoom',
-    'vuepress-plugin-element-tabs',
-    [
-      '@vuepress/google-analytics',
-      {
+  plugins: {
+    '@vuepress/medium-zoom': {},
+    'vuepress-plugin-element-tabs':{},
+    '@vuepress/google-analytics':{
         ga: 'UA-54313258-1',
       },
-    ],
-  ],
+    'seo': {
+      siteTitle: (_, $site) => $site.title,
+      title: $page => $page.title,
+    }
+  },
   head: [
     [
       'link',

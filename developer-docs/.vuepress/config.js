@@ -1,5 +1,5 @@
 module.exports = {
-  title: null,
+  title: "Strapi Developer Documentation",
   port: 8081,
   description: 'The headless CMS developers love.',
   base: '/documentation/developer-docs/',
@@ -27,7 +27,7 @@ module.exports = {
       'meta',
       {
         property: 'og:title',
-        content: 'Strapi Documentation',
+        content: 'Strapi Developer Documentation',
       },
     ],
     [
