@@ -1,0 +1,23 @@
+{
+  "name": "strapi-docs",
+  "version": "3.0.0",
+  "scripts": {
+    "dev:user": "cd user-docs && vuepress dev",
+    "build:user": "cd user-docs && vuepress build",
+    "dev:developer": "cd developer-docs && vuepress dev",
+    "build:developer": "cd developer-docs && vuepress build"
+  },
+  "license": "SEE LICENSE IN LICENSE",
+  "author": {
+    "email": "hi@strapi.io",
+    "name": "Strapi Solutions",
+    "url": "http://strapi.io"
+  },
+  "maintainers": [
+    {
+      "name": "Strapi Solutions",
+      "email": "hi@strapi.io",
+      "url": "http://strapi.io"
+    }
+  ]
+}
