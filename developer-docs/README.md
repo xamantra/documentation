@@ -1,5 +1,5 @@
 ---
 meta:
   - http-equiv: refresh
-    content: 0;url=/documentation/developer-docs/
+    content: 0;url=/documentation/developer-docs/latest/
 ---
