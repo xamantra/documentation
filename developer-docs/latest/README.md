@@ -1,5 +1,5 @@
 ---
 meta:
   - http-equiv: refresh
-    content: 0;url=/documentation/v3.x/getting-started/introduction.html
+    content: 0;url=/documentation/developer-docs/getting-started/introduction.html
 ---
