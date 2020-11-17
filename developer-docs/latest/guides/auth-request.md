@@ -1,5 +1,6 @@
 ---
-title: Blogging with VuePress
+meta:
+  - name: Authenticated request
 ---
 
 # Authenticated request
