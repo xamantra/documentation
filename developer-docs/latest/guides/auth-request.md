@@ -1,3 +1,7 @@
+---
+title: Blogging with VuePress
+---
+
 # Authenticated request
 
 In this guide you will see how you can request the API as an authenticated user.
