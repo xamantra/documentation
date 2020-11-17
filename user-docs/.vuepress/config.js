@@ -1,5 +1,6 @@
 module.exports = {
   title: null,
+  port: 8082,
   description: 'The headless CMS developers love.',
   base: '/user-docs/',
   plugins: [
@@ -39,7 +40,7 @@ module.exports = {
       'meta',
       {
         property: 'og:url',
-        content: 'https://strapi.io/user-docs/',
+        content: 'https://strapi.io/documentation/user-docs/',
       },
     ],
     [
@@ -53,7 +54,7 @@ module.exports = {
       'meta',
       {
         property: 'og:image',
-        content: 'https://strapi.io/user-docs/assets/meta.png',
+        content: 'https://strapi.io/documentation/user-docs/assets/meta.png',
       },
     ],
     [
@@ -75,7 +76,7 @@ module.exports = {
       'meta',
       {
         property: 'twitter:url',
-        content: 'https://strapi.io/user-docs/',
+        content: 'https://strapi.io/documentation/user-docs/',
       },
     ],
     [
@@ -176,28 +177,28 @@ module.exports = {
           collapsable: false,
           title: '🖌 Content-Types Builder',
           children: [
-
+            ['/latest/work-in-progress.md', 'Work In Progress']
           ],
         },
         {
           collapsable: false,
           title: '🎟 Users, roles & permissions',
           children: [
-
+            ['/latest/work-in-progress.md', 'Work In Progress']
           ],
         },
         {
           collapsable: false,
           title: '🧩 Plugins',
           children: [
-
+            ['/latest/work-in-progress.md', 'Work In Progress']
           ],
         },
         {
           collapsable: false,
           title: '⚙️ Settings',
           children: [
-
+            ['/latest/work-in-progress.md', 'Work In Progress']
           ],
         },
       ],
